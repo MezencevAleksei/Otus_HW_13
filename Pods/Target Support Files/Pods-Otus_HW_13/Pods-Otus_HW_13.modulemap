@@ -1,0 +1,6 @@
+framework module Pods_Otus_HW_13 {
+  umbrella header "Pods-Otus_HW_13-umbrella.h"
+
+  export *
+  module * { export * }
+}

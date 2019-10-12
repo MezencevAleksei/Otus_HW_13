@@ -3,27 +3,53 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F755A67F1283292559667908 /* Pods_Otus_HW_13.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ED8C7D2AF6A2CD01A42CCA6 /* Pods_Otus_HW_13.framework */; };
+		FA0234462351BBA200B889E2 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0234452351BBA200B889E2 /* NewsModel.swift */; };
+		FA0234492351BC5B00B889E2 /* NewsCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0234482351BC5B00B889E2 /* NewsCellView.swift */; };
+		FA02344B2351BEFA00B889E2 /* NewsDataObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA02344A2351BEFA00B889E2 /* NewsDataObject.swift */; };
 		FA4103C8234A1FB200F76A58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4103C7234A1FB200F76A58 /* AppDelegate.swift */; };
 		FA4103CA234A1FB200F76A58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4103C9234A1FB200F76A58 /* SceneDelegate.swift */; };
-		FA4103CC234A1FB200F76A58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4103CB234A1FB200F76A58 /* ContentView.swift */; };
+		FA4103CC234A1FB200F76A58 /* NewsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4103CB234A1FB200F76A58 /* NewsListView.swift */; };
 		FA4103CE234A1FB300F76A58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA4103CD234A1FB300F76A58 /* Assets.xcassets */; };
 		FA4103D1234A1FB300F76A58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA4103D0234A1FB300F76A58 /* Preview Assets.xcassets */; };
 		FA4103D4234A1FB300F76A58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA4103D2234A1FB300F76A58 /* LaunchScreen.storyboard */; };
+		FA4103DE234A286400F76A58 /* BaseUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4103DD234A286400F76A58 /* BaseUrl.swift */; };
+		FA4103E1234A298500F76A58 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4103E0234A298500F76A58 /* BaseRequest.swift */; };
+		FA4103E3234A48B100F76A58 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4103E2234A48B100F76A58 /* Request.swift */; };
+		FA4103E6234A4EA200F76A58 /* DataPrtovader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4103E5234A4EA200F76A58 /* DataPrtovader.swift */; };
+		FA4103EC234A52C200F76A58 /* DynamicJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4103EB234A52C200F76A58 /* DynamicJSON.swift */; };
+		FA4924AA2352119500643539 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4924A92352119500643539 /* NewsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E7D7D35E511EBF8C4086C28 /* Pods-Otus_HW_13.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Otus_HW_13.release.xcconfig"; path = "Target Support Files/Pods-Otus_HW_13/Pods-Otus_HW_13.release.xcconfig"; sourceTree = "<group>"; };
+		9ED8C7D2AF6A2CD01A42CCA6 /* Pods_Otus_HW_13.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Otus_HW_13.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3AB1D57953837185990C8D6 /* Pods-Otus_HW_13.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Otus_HW_13.debug.xcconfig"; path = "Target Support Files/Pods-Otus_HW_13/Pods-Otus_HW_13.debug.xcconfig"; sourceTree = "<group>"; };
+		FA0234452351BBA200B889E2 /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		FA0234482351BC5B00B889E2 /* NewsCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCellView.swift; sourceTree = "<group>"; };
+		FA02344A2351BEFA00B889E2 /* NewsDataObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDataObject.swift; sourceTree = "<group>"; };
 		FA4103C4234A1FB200F76A58 /* Otus_HW_13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Otus_HW_13.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA4103C7234A1FB200F76A58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA4103C9234A1FB200F76A58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FA4103CB234A1FB200F76A58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA4103CB234A1FB200F76A58 /* NewsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListView.swift; sourceTree = "<group>"; };
 		FA4103CD234A1FB300F76A58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA4103D0234A1FB300F76A58 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA4103D3234A1FB300F76A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA4103D5234A1FB300F76A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA4103DD234A286400F76A58 /* BaseUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUrl.swift; sourceTree = "<group>"; };
+		FA4103E0234A298500F76A58 /* BaseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
+		FA4103E2234A48B100F76A58 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		FA4103E5234A4EA200F76A58 /* DataPrtovader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPrtovader.swift; sourceTree = "<group>"; };
+		FA4103EB234A52C200F76A58 /* DynamicJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicJSON.swift; sourceTree = "<group>"; };
+		FA4924992351CACF00643539 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA49249D2351D17000643539 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4924A22351DD6000643539 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4924A62351DD6400643539 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4924A92352119500643539 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,60 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F755A67F1283292559667908 /* Pods_Otus_HW_13.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4BD0927B873A29757C411DD4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3AB1D57953837185990C8D6 /* Pods-Otus_HW_13.debug.xcconfig */,
+				3E7D7D35E511EBF8C4086C28 /* Pods-Otus_HW_13.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D062E116BEC4B758B7F06FFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA4924A62351DD6400643539 /* RealmSwift.framework */,
+				FA4924A22351DD6000643539 /* Realm.framework */,
+				FA49249D2351D17000643539 /* Realm.framework */,
+				FA4924992351CACF00643539 /* RealmSwift.framework */,
+				9ED8C7D2AF6A2CD01A42CCA6 /* Pods_Otus_HW_13.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA0234442351BB8700B889E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA0234452351BBA200B889E2 /* NewsModel.swift */,
+				FA02344A2351BEFA00B889E2 /* NewsDataObject.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA0234472351BC2900B889E2 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FA4103CB234A1FB200F76A58 /* NewsListView.swift */,
+				FA0234482351BC5B00B889E2 /* NewsCellView.swift */,
+				FA4924A92352119500643539 /* NewsView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		FA4103BB234A1FB200F76A58 = {
 			isa = PBXGroup;
 			children = (
 				FA4103C6234A1FB200F76A58 /* Otus_HW_13 */,
 				FA4103C5234A1FB200F76A58 /* Products */,
+				4BD0927B873A29757C411DD4 /* Pods */,
+				D062E116BEC4B758B7F06FFD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,9 +125,13 @@
 		FA4103C6234A1FB200F76A58 /* Otus_HW_13 */ = {
 			isa = PBXGroup;
 			children = (
+				FA0234472351BC2900B889E2 /* UI */,
+				FA0234442351BB8700B889E2 /* Model */,
+				FA4103EA234A529900F76A58 /* Support */,
+				FA4103E4234A4E8800F76A58 /* DataProvider */,
+				FA4103DB234A277600F76A58 /* URLSession */,
 				FA4103C7234A1FB200F76A58 /* AppDelegate.swift */,
 				FA4103C9234A1FB200F76A58 /* SceneDelegate.swift */,
-				FA4103CB234A1FB200F76A58 /* ContentView.swift */,
 				FA4103CD234A1FB300F76A58 /* Assets.xcassets */,
 				FA4103D2234A1FB300F76A58 /* LaunchScreen.storyboard */,
 				FA4103D5234A1FB300F76A58 /* Info.plist */,
@@ -75,6 +148,48 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		FA4103DB234A277600F76A58 /* URLSession */ = {
+			isa = PBXGroup;
+			children = (
+				FA4103DF234A290D00F76A58 /* BaseRequest */,
+				FA4103DC234A282400F76A58 /* BaseURL */,
+				FA4103E2234A48B100F76A58 /* Request.swift */,
+			);
+			path = URLSession;
+			sourceTree = "<group>";
+		};
+		FA4103DC234A282400F76A58 /* BaseURL */ = {
+			isa = PBXGroup;
+			children = (
+				FA4103DD234A286400F76A58 /* BaseUrl.swift */,
+			);
+			path = BaseURL;
+			sourceTree = "<group>";
+		};
+		FA4103DF234A290D00F76A58 /* BaseRequest */ = {
+			isa = PBXGroup;
+			children = (
+				FA4103E0234A298500F76A58 /* BaseRequest.swift */,
+			);
+			path = BaseRequest;
+			sourceTree = "<group>";
+		};
+		FA4103E4234A4E8800F76A58 /* DataProvider */ = {
+			isa = PBXGroup;
+			children = (
+				FA4103E5234A4EA200F76A58 /* DataPrtovader.swift */,
+			);
+			path = DataProvider;
+			sourceTree = "<group>";
+		};
+		FA4103EA234A529900F76A58 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				FA4103EB234A52C200F76A58 /* DynamicJSON.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA4103D8234A1FB300F76A58 /* Build configuration list for PBXNativeTarget "Otus_HW_13" */;
 			buildPhases = (
+				48EA780D13619B5B7A5AB48E /* [CP] Check Pods Manifest.lock */,
 				FA4103C0234A1FB200F76A58 /* Sources */,
 				FA4103C1234A1FB200F76A58 /* Frameworks */,
 				FA4103C2234A1FB200F76A58 /* Resources */,
+				AE8EF5032CA1A6E85BD24F26 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -141,14 +258,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		48EA780D13619B5B7A5AB48E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Otus_HW_13-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE8EF5032CA1A6E85BD24F26 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Otus_HW_13/Pods-Otus_HW_13-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Otus_HW_13/Pods-Otus_HW_13-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Otus_HW_13/Pods-Otus_HW_13-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FA4103C0234A1FB200F76A58 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA0234462351BBA200B889E2 /* NewsModel.swift in Sources */,
+				FA4924AA2352119500643539 /* NewsView.swift in Sources */,
+				FA4103E1234A298500F76A58 /* BaseRequest.swift in Sources */,
+				FA0234492351BC5B00B889E2 /* NewsCellView.swift in Sources */,
+				FA02344B2351BEFA00B889E2 /* NewsDataObject.swift in Sources */,
+				FA4103E3234A48B100F76A58 /* Request.swift in Sources */,
 				FA4103C8234A1FB200F76A58 /* AppDelegate.swift in Sources */,
+				FA4103EC234A52C200F76A58 /* DynamicJSON.swift in Sources */,
 				FA4103CA234A1FB200F76A58 /* SceneDelegate.swift in Sources */,
-				FA4103CC234A1FB200F76A58 /* ContentView.swift in Sources */,
+				FA4103DE234A286400F76A58 /* BaseUrl.swift in Sources */,
+				FA4103CC234A1FB200F76A58 /* NewsListView.swift in Sources */,
+				FA4103E6234A4EA200F76A58 /* DataPrtovader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +450,7 @@
 		};
 		FA4103D9234A1FB300F76A58 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3AB1D57953837185990C8D6 /* Pods-Otus_HW_13.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,12 +465,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "IP-Mezencev.Otus-HW-13";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		FA4103DA234A1FB300F76A58 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E7D7D35E511EBF8C4086C28 /* Pods-Otus_HW_13.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -316,7 +486,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "IP-Mezencev.Otus-HW-13";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
